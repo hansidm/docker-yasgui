@@ -1,5 +1,4 @@
-FROM nginx:1.15.8
-LABEL maintainer="erika.pauwels@gmail.com"
+FROM nginx:alpine-slim
 
 ENV ENABLE_ENDPOINT_SELECTOR false
 ENV DEFAULT_SPARQL_ENDPOINT http://localhost/sparql

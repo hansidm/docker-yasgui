@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ "$ENABLE_ENDPOINT_SELECTOR" == "true" ]; 
 then
